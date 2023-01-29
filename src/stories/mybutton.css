@@ -1,0 +1,25 @@
+.btn {
+    background-color: blue;
+    color: white; 
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 3px;
+    min-width: 74px;
+}
+
+.secondary {
+    background-color: transparent;
+    color: blue;
+    border: solid 2px blue;
+}
+
+.btn:disabled {
+    background-color: #ccc !important;
+    color: #666 !important;
+}
+
+.destructive {
+    background-color: transparent;
+    color: red;
+    border: solid 2px red;
+}

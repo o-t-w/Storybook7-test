@@ -1,0 +1,27 @@
+import {Canvas, Meta, Story, ArgsTable} from '@storybook/blocks';
+import * as MyButtonStories from './MyButton.stories';
+import {MyButton} from './MyButton';
+
+<Meta of={MyButtonStories} />
+
+## stories
+
+### Primary MyButton
+
+<ArgsTable of={MyButton}/>
+
+<Canvas withSource="open">
+    <Story of={MyButtonStories.Primary} />
+</Canvas>
+
+<Canvas withSource="open">
+    <Story of={MyButtonStories.Secondary} />
+</Canvas>
+
+<Canvas withSource="open">
+    <Story of={MyButtonStories.Disabled} />
+</Canvas>
+
+<Canvas withSource="open">
+    <Story of={MyButtonStories.Destructive} />
+</Canvas>
