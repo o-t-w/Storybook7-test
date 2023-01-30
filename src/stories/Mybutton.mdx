@@ -6,13 +6,22 @@ import {MyButton} from './MyButton';
 
 ## stories
 
-### Primary MyButton
+### Primary
 
-<ArgsTable of={MyButton}/>
+{/* <ArgsTable story="Primary"/> */}
 
 <Canvas withSource="open">
     <Story of={MyButtonStories.Primary} />
 </Canvas>
+
+```css
+/* for the head */ 
+.button {
+    color: red;
+}
+```
+
+### Secondary
 
 <Canvas withSource="open">
     <Story of={MyButtonStories.Secondary} />

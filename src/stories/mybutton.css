@@ -23,3 +23,7 @@
     color: red;
     border: solid 2px red;
 }
+
+* {
+    box-sizing: border-box;
+}
